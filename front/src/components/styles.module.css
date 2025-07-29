@@ -1,14 +1,20 @@
 .wrapper {
   width: 80vw;
   text-align: start;
+  padding: 8px;
 }
 
 .itemData {
   display: flex;
   width: 100%;
+  border: 1px solid gray;
 }
 .itemData span {
   width: 45%;
+}
+.elWrapper {
+  display: grid;
+  place-items: center;
 }
 .expired {
   color: red;

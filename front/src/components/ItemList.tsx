@@ -18,8 +18,7 @@ export const ItemList = () => {
 
   return (
     <section className={styles.wrapper}>
-      {items && items.map((el, index) => <div key={el.id} className={styles.itemData}>
-        <span className={styles.elWrapper}>{index+1}</span>
+      {items && items.map((el) => <div key={el.id} className={styles.itemData}>
         <span className={styles.elWrapper}>{el.name}</span>
         <div className={styles.descriptionWrapper}>
           {el.supplierList.map((supplier) => <div key={supplier.id} className={styles.description} >
