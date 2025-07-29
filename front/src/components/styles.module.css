@@ -1,0 +1,25 @@
+.wrapper {
+  width: 80vw;
+  text-align: start;
+}
+
+.itemData {
+  display: flex;
+  width: 100%;
+}
+.itemData span {
+  width: 45%;
+}
+.expired {
+  color: red;
+  text-decoration: line-through;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.descriptionWrapper {
+  width: 55%;
+}
